@@ -26,7 +26,7 @@ def GenerateFullGraph(amount_of_vertexes) :
 
 В качестве эталонного ответа использовался результат динамического решения задачи из библиотеки [python_tsp](https://pypi.org/project/python_tsp/).
 ## Steepest Descent
-Результаты тестов на дефолтных параметрах сэмплера.
+Результаты тестов на дефолтных параметрах сэмплера:
 
 ![1 diagram](images/SD-def-unfixed-exact.jpg)
 
@@ -34,7 +34,7 @@ def GenerateFullGraph(amount_of_vertexes) :
 
 ![3 diagram](images/SD-def-unfixed-time.jpg)
 
-Результаты тестов со шкалой количества заходов.
+Результаты тестов со шкалой количества заходов:
 
 ![4 diagram](images/SD-def-fixed-exact.jpeg)
 
@@ -43,7 +43,7 @@ def GenerateFullGraph(amount_of_vertexes) :
 ![6 diagram](images/SD-def-fixed-time.jpg)
 
 ## Tabu Search
-Результаты тестов на дефолтных параметрах сэмплера(500 тестов).
+Результаты тестов на дефолтных параметрах сэмплера(500 тестов):
 
 ![7 diagram](images/TS-def-unfixed-exact.png)
 
@@ -51,7 +51,7 @@ def GenerateFullGraph(amount_of_vertexes) :
 
 Время постоянно и равно ~ 0,021 секунд.
 
-Результаты тестов со шкалой количества заходов(500 тестов).
+Результаты тестов со шкалой количества заходов(500 тестов):
 
 ![9 diagram](images/TS-def-fixed-exact.png)
 
@@ -60,10 +60,10 @@ def GenerateFullGraph(amount_of_vertexes) :
 Время линейно зависит от количества заходов (время одного захода: ~ 0,021 секунд).
 
 ## Simulated Annealing
-Результаты тестов со шкалой количества заходов и несколькими кривыми, отвечающими за различное количество вершин.
+Результаты тестов со шкалой количества заходов и несколькими кривыми, отвечающими за различное количество вершин:
 ![11 diagram](images/SA-def-unfixed-coef.png)
 
-Те же исходные, кроме изменения параметра `beta_range` с дефолтного на `[0.1, 0,2]`.
+Те же исходные, кроме изменения параметра `beta_range` с дефолтного на `[0.1, 0,2]`:
 ![12 diagram](images/SA-beta_range-unfixed-coef.png)
 
 Время одного захода зависит непостоянно и зависит от размера матрицы QUBO, размер которой равен четвёртой степени количества вершин в графе.
