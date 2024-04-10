@@ -26,5 +26,16 @@ def GenerateFullGraph(amount_of_vertexes) :
 
 В качестве эталонного ответа использовался результат динамического решения задачи из библиотеки [python_tsp](https://pypi.org/project/python_tsp/).
 ## Steepest Descent
+Результаты по итогам 300 тестов с использованием сэмлера Steepest Descent.
 
+![1 diagram](images/SD-def-unfixed-exact.jpg)
 
+![2 diagram](images/SD-def-unfixed-coef.jpeg)
+
+![3 diagram](images/SD-def-unfixed-time.jpg)
+
+![4 diagram](images/SD-def-fixed-exact.jpeg)
+
+![5 diagram](images/SD-def-fixed-coef.jpeg)
+
+![6 diagram](images/SD-def-fixed-time.jpg)
