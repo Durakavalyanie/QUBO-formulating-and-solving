@@ -2,28 +2,7 @@
 
 ## Построение матрицы QUBO
 
-<details>
-
-<summary>
-Построение QUBO матрицы
-</summary>
-
-```
-    for i in range(0, amount_of_vertexes):  # строим кубо матрицу
-        for j in range(0, amount_of_vertexes):
-            for v in range(0, amount_of_vertexes):
-                for u in range(0, amount_of_vertexes):
-                    row = i * amount_of_vertexes + v
-                    column = j * amount_of_vertexes + u
-                    if (row == column):
-                        qubo[row][column] = -2 * kA
-                    elif (i == j or u == v):
-                        qubo[row][column] = 4 * kA
-                    elif (abs(j - i) == 1):
-                        qubo[row][column] = kWeight * graph[v][u]
-```
-  
-</details>
+![Построение QUBO матрицы](images/code.jpg)
 
 Решателем в следующих тестах является Steepest Descent Solver by D-Wave
 
