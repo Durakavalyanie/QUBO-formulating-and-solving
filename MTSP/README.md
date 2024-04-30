@@ -74,3 +74,5 @@ kE = 1
 ![](images/MTSP_15vert_2auto_polygon.jpeg)
 
 ![](images/MTSP_15vert_3auto_random.jpeg)
+
+![](images/MTSP_15vert_3auto_random_2.png)
