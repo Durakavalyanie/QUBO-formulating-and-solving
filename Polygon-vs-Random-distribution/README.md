@@ -1,6 +1,9 @@
 # Влияние характера распределения вершин на точность ответа
 ## Построение
-Рассматриваются два типа распределения вершин на ограниченной плоскости: случайное и в форме правильного многоугольника.
+Рассматриваются три типа распределения вершин в графе:
+* В форме правильного многоугольника (вершины расположены в форме правильного многоугольника и вес ребра равен евклидовому расстоянию).
+* Случайное геометрическое (случайное расположение вершин на плоскости и вес ребра равен евклидовому расстоянию).
+* Абстрактное (каждому ребру присваивается случайный вес).
 
 <details>
   
@@ -53,22 +56,40 @@ def GeneratePolygon(amount_of_vertexes) :
   
 </details>
 
+<details>
+
+<summary>
+  Построение абстрактного графа.
+</summary>
+
+  ```
+def GenerateFullGraph(amount_of_vertexes):
+    graph = [[0] * amount_of_vertexes for i in range(amount_of_vertexes)]
+    for i in range(amount_of_vertexes):
+        for j in range(i + 1, amount_of_vertexes):
+            weight = random.randint(1, kMaxWeight)
+            graph[i][j] = weight
+            graph[j][i] = weight
+    return graph
+  ```
+</details>
+
 ## Результаты
 
 ### Steepest Descent, 20 vertexes
 
-| |Polygon |Random|
-| ------- | ------- | ------- |
-|gap, %| 44| 25.5|
-|time, sec.| 1.24 |1.22|
+| |Polygon |Random|Abstract|
+| ------- | ------- | ------- |------|
+|gap| 44%| 25.5%|49.9%|
+|time, sec.| 1.24 |1.22|1.21|
 
 
 ### Simulated Annealing, 10 vertexes
 
-||Polygon|Random|
-| ------- | ------- | ------- |
-|gap, %| 27| 14.5|
-|time, sec.| 6.16| 5.91|
+||Polygon|Random|Abstract|
+| ------- | ------- | ------- |-----|
+|gap| 27.0%| 14.5%| 33.1%|
+|time, sec.| 6.16| 5.91|5.54|
 
 ## Примеры
 
