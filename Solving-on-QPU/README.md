@@ -16,6 +16,8 @@ Dwave предоставляет ограниченный доступ к сво
 |Avg time, sec|0,58|0,59|
 |Avg gap|8,8%|51,2%|
 
+\* $\LARGE gap = \frac{sampler\textunderscore dist \ - \ dynam\textunderscore dist}{ dynam\textunderscore dist} $
+
 В качестве эталонного ответа использовался результат динамического решения задачи из библиотеки [python_tsp](https://pypi.org/project/python_tsp/).
 Параметры для сэмплера были подобраны таким образом, чтобы время работы приблизительно совпадало. Для сэмплера было выбрано num_reads = 1700, а для QPU num_reads = 3800 и annealing_time = 1.
 
@@ -26,4 +28,6 @@ sampler = DWaveSampler()
 sampleset = EmbeddingComposite(sampler).sample(bqm, num_reads = 3800, annealing_time = 1)
 ```
 
-Задачи отправлялись на QPU под названием "
+Задачи отправлялись на следующий QPU:
+
+![](images/QPU_screenshot.png)
