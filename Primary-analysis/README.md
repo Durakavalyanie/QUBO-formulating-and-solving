@@ -25,6 +25,11 @@ def GenerateFullGraph(amount_of_vertexes) :
 </details>
 
 В качестве эталонного ответа использовался результат динамического решения задачи из библиотеки [python_tsp](https://pypi.org/project/python_tsp/).
+
+Коэффициент устойчивости вычисляется по формуле:
+$$\large coeff = (1 - \frac{sampler\textunderscore dist \ - \ dynam\textunderscore dist}{ dynam\textunderscore dist}) \cdot 100 \\% $$
+
+Процент успеха - это процент точных совпадений с эталонным ответом.
 ## Steepest Descent
 Результаты тестов на дефолтных параметрах сэмплера:
 
