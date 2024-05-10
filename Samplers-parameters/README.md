@@ -111,4 +111,10 @@
 Функция, которая вызывается без параметров между каждым образцом алгоритма отжига. Если функция
 возвращает True, алгоритм отжига завершается, и возвращаются все найденные образцы и их энергии.
 
+## Полезные ссылки
 
+Параметры Simulated Annealing'a. [ссылка](https://docs.ocean.dwavesys.com/en/latest/docs_neal/reference/generated/neal.sampler.SimulatedAnnealingSampler.sample.html#neal.sampler.SimulatedAnnealingSampler.sample).
+
+Параметры Steepest Descent'а. [ссылка](https://docs.ocean.dwavesys.com/en/latest/docs_samplers/generated/dwave.samplers.SteepestDescentSolver.sample.html)
+
+Параметры Tabu Sampler'а. [ссылка](https://docs.ocean.dwavesys.com/en/latest/docs_samplers/generated/dwave.samplers.TabuSampler.sample.html).
