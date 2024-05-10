@@ -31,3 +31,12 @@ sampleset = EmbeddingComposite(sampler).sample(bqm, num_reads = 3800, annealing_
 Задачи отправлялись на следующий QPU:
 
 ![](images/QPU_screenshot.png)
+
+## Полезные ссылки
+
+[Сэмплеры](https://docs.ocean.dwavesys.com/projects/system/en/stable/reference/samplers.html), которые связаны с Leap.
+
+[Классы](https://docs.ocean.dwavesys.com/projects/system/en/stable/reference/composites.html), приводящие BQM(binary quadratic model) к топологии QPU.
+
+[Параметры](https://docs.dwavesys.com/docs/latest/c_solver_parameters.html) гибридных и QPU сэмплеров.
+
