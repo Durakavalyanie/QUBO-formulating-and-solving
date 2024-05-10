@@ -76,3 +76,7 @@ kE = 1
 ![](images/MTSP_15vert_3auto_random.jpeg)
 
 ![](images/MTSP_15vert_3auto_random_2.png)
+
+## Полезные ссылки
+
+За основу была взята [статья](FormulatingandSolvingRoutingProblems_on_Quantum_Computers.pdf), а конкретно раздел D.SEQUENCE-BASED FORMULATION с некоторыми изменениями.
