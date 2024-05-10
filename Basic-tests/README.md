@@ -45,5 +45,5 @@
 
 Много Ising-сформулированных классических задач. [ссылка](https://arxiv.org/pdf/1302.5843.pdf).
 
-Вариант Ising-формулировки TSP с раскрытием скобок. [ссылка](кttps://www.ece.ualberta.ca/~jhan8/publications/SB_TSP_ISOCC_Submitted.pdf).
+Вариант Ising-формулировки TSP с раскрытием скобок. [ссылка](https://www.ece.ualberta.ca/~jhan8/publications/SB_TSP_ISOCC_Submitted.pdf).
 
