@@ -72,3 +72,9 @@ $$\large coeff = (1 - \frac{sampler\textunderscore dist \ - \ dynam\textundersco
 ![12 diagram](images/SA-beta_range-unfixed-coef.png)
 
 Время одного захода непостоянно и зависит от размера матрицы QUBO, размер которой равен четвёртой степени количества вершин в графе.
+
+## Полезные ссылки
+
+Краткий экскурс по всем локальным (алгоритмы, которые запускаются на самом компьютере) сэмплерами Dwave. [ссылка](https://github.com/dwavesystems/dwave-samplers).
+
+Документация Dwave по базовым классам, моделям, сэмплерам и т.д. (самая полезная ссылка для написания кода). [ссылка](https://docs.ocean.dwavesys.com/en/latest/docs_dimod/reference/index.html).
