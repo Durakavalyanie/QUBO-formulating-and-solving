@@ -4,7 +4,7 @@
 
 ## Гайд по репозиторию
 
-1. Построение QUBO для базовой задачи коммивояжёра и его проверка [Basic-tests](\Basic-tests\README.md).
+1. Построение QUBO для базовой задачи коммивояжёра и его проверка [Basic-tests](/Basic-tests/README.md).
 2. Первичный анализ и графики зависимостей близости ответа на сэмплерах к точному от времени выполнения [Primary-analysis](\Primary-analysis\README.md).
 3. Описания сэмплеров (решателей) Dwave'a [Samplers-parameters](Samplers-parameters\README.md).
 4. Решение больших задач на нескольких потоках [Tests-threads](Tests-threads\README.md).
