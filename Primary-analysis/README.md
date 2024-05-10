@@ -75,6 +75,6 @@ $$\large coeff = (1 - \frac{sampler\textunderscore dist \ - \ dynam\textundersco
 
 ## Полезные ссылки
 
-Краткий экскурс по всем локальным (алгоритмы, которые запускаются на самом компьютере) сэмплерами Dwave. [ссылка](https://github.com/dwavesystems/dwave-samplers).
+Краткий экскурс по всем локальным (алгоритмы, которые запускаются на самом компьютере) сэмплерами Dwave. [ссылка](https://docs.ocean.dwavesys.com/en/latest/docs_samplers/index.html).
 
 Документация Dwave по базовым классам, моделям, сэмплерам и т.д. (самая полезная ссылка для написания кода). [ссылка](https://docs.ocean.dwavesys.com/en/latest/docs_dimod/reference/index.html).
