@@ -11,3 +11,4 @@
 5. Виды графов для задачи коммивояжёра и влияние на ответ [Types-of-graphs](/Types-of-graph).
 6. Формулировка задачи множественного коммивояжёра и примеры решений [MTSP](/MTSP).
 7. Отправка задач на квантовый компьютер через Dwave Leap [Solving-on-QPU](/Solving-on-QPU).
+8. Получение точного ответа на сэмплере [Exact-answer-complexity](/Exact-answer-complexity).
