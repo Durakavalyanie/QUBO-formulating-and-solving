@@ -91,6 +91,12 @@ def GenerateFullGraph(amount_of_vertexes):
 |gap| 27.0%| 14.5%| 33.1%|
 |time, sec.| 6.16| 5.91|5.54|
 
+### Tabu Search, 20 vertexes
+||Polygon|Random|Abstract|
+| ------- | ------- | ------- |-----|
+|gap| 0%| 77.4%| %|
+|time, sec.| 0.1586| 0.2322||
+
 ## Примеры
 
  | |Polygon|Random|
