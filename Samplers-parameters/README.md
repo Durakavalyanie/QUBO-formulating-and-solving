@@ -1,4 +1,4 @@
-# Решатели QUBO и из параметры
+# Решатели QUBO и их параметры
 
 ## Решатель Steepest Descent Solver
 
