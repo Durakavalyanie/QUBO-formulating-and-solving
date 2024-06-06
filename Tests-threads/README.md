@@ -35,8 +35,8 @@
 
 ## Simulated Annealing Sampler
 
-Не знаю что происходит, все ужасно...
-Не получилось подобрать параметры для более менее нормальных результатов
+[comment]: <> (Не знаю что происходит, все ужасно...
+Не получилось подобрать параметры для более менее нормальных результатов)
 
 ![annealing_parameters_1.png](polynom%2Fannealing_parameters_1.png)
 ![simulated_annealing_1.png](polynom%2Fsimulated_annealing_1.png)![simulated_1.png](random%2Fsimulated_1.png)
@@ -64,4 +64,5 @@
 Кол-во вершин - 20, кол-во начальных состояний - 10000, потоков - 10
 Время выполнения - ~30 сек
 
-![steepest_random_2.png](polynom%2Fsteepest_random_2.png)![steepest_2.png](random/steepest_.png)
+![steepest_random_2.png](polynom%2Fsteepest_random_2.png)
+![steepest_2.png](random/steepest_2.png)
